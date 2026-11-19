@@ -1,0 +1,18 @@
+accounts:
+  - name: Example_50K
+    starting_balance: 50000
+    drawdown_type: trailing      # trailing or static
+    max_daily_loss: 1000
+    max_total_drawdown: 2000
+    max_contracts_nq: 5
+    max_contracts_mnq: 50
+    risk_pct_of_daily_loss: 0.20
+
+  - name: Example_25K_Static
+    starting_balance: 25000
+    drawdown_type: static
+    max_daily_loss: 500
+    max_total_drawdown: 1000
+    max_contracts_nq: 2
+    max_contracts_mnq: 20
+    risk_pct_of_daily_loss: 0.20
